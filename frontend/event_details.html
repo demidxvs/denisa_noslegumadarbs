@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <!-- Dokumenta kodējums -->
+  <meta charset="UTF-8" />
+
+  <!-- Responsīvā dizaina nodrošināšana mobilajām ierīcēm -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Lapas nosaukums pārlūkprogrammas cilnē -->
+  <title>Pasākuma detaļas</title>
+
+  <!-- W3.CSS stilu bibliotēka pamata izkārtojumam -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+  <!-- Projekta kopējais stilu fails -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Lapas galvenais konteiners, kas centrē saturu -->
+  <div class="page-wrap">
+
+    <!-- Pasākuma nosaukums (aizpildās dinamiski no JavaScript) -->
+    <h1 class="title" id="eventTitle">Pasākuma detaļas</h1>
+
+    <!-- Galvenais pasākuma attēls -->
+    <img
+      class="main-image"
+      id="mainImage"
+      alt="Galvenais attēls"
+    />
+
+    <!-- Papildu pasākuma attēlu bloks -->
+    <!-- Attēli tiek ielādēti dinamiski no API -->
+    <div class="details-grid" id="extraImages"></div>
+
+    <!-- Pasākuma detalizētās informācijas panelis -->
+    <div class="panel" style="margin-top: 16px;">
+      <!-- Pasākuma cena -->
+      <p>
+        <strong>Cena:</strong>
+        <span id="eventPrice"></span>
+      </p>
+
+      <!-- Pasākuma datums un laiks -->
+      <p>
+        <strong>Datums un laiks:</strong>
+        <span id="eventDate"></span>
+      </p>
+
+      <!-- Pasākuma apraksts -->
+      <p><strong>Apraksts:</strong></p>
+      <p id="eventDescription"></p>
+    </div>
+
+    <!-- Navigācijas poga atgriešanai uz pasākumu sarakstu -->
+    <div style="margin-top: 16px; text-align: center;">
+      <a class="btn" href="events.html">Atpakaļ</a>
+    </div>
+
+    <!-- Statusa vai kļūdu paziņojumu attēlošana -->
+    <p class="notice" id="statusMessage"></p>
+  </div>
+
+  <!-- JavaScript fails, kas ielādē pasākuma detaļas no REST API -->
+  <script src="js/event_details.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <!-- Dokumenta kodējums -->
+  <meta charset="UTF-8" />
+
+  <!-- Responsīvā dizaina atbalsts -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Lapas nosaukums pārlūkā -->
+  <title>Kategoriju pārvaldība</title>
+
+  <!-- W3.CSS bibliotēka pamata dizainam -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+  <!-- Projekta kopējie stili -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Lapas galvenais konteiners satura centrēšanai -->
+  <div class="page-wrap">
+
+    <!-- Lapas virsraksts -->
+    <h1 class="title">Kategoriju pārvaldība</h1>
+
+    <!-- Panelis jaunas kategorijas pievienošanai -->
+    <div class="panel form-wrap">
+
+      <!-- Kategorijas nosaukuma ievades lauks -->
+      <div class="form-row">
+        <label for="newTypeName">Jauna kategorija</label>
+        <input
+          class="w3-input w3-border"
+          id="newTypeName"
+          type="text"
+          minlength="3"
+          maxlength="50"
+          placeholder="Ievadi kategorijas nosaukumu"
+        />
+      </div>
+
+      <!-- Darbību pogas -->
+      <div class="form-actions">
+        <!-- Poga jaunas kategorijas pievienošanai -->
+        <button class="btn btn-primary" id="addTypeBtn">Pievienot</button>
+
+        <!-- Navigācijas poga atgriešanās uz pasākumu sarakstu -->
+        <a class="btn" href="events.html">Atpakaļ uz pasākumiem</a>
+      </div>
+
+      <!-- Statusa un kļūdu paziņojumu attēlošana -->
+      <p class="notice" id="statusMessage"></p>
+    </div>
+
+    <!-- Esošo kategoriju saraksta panelis -->
+    <div class="panel" style="margin-top: 16px;">
+      <h3>Esošās kategorijas</h3>
+
+      <!-- Dinamiski aizpildīts kategoriju saraksts no JavaScript -->
+      <div id="typesList"></div>
+    </div>
+  </div>
+
+  <!-- JavaScript fails kategoriju pievienošanai un rediģēšanai -->
+  <script src="js/category_management.js"></script>
+</body>
+</html>

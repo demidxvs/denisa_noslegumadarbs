@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <!-- Dokumenta kodējums -->
+  <meta charset="UTF-8" />
+
+  <!-- Responsīvais skats mobilajām ierīcēm -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Lapas nosaukums pārlūkprogrammas cilnē -->
+  <title>Pasākuma rediģēšana</title>
+
+  <!-- W3.CSS bibliotēka pamata dizainam -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+  <!-- Projekta kopējais stilu fails -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Lapas galvenais konteiners, kas centrē saturu -->
+  <div class="page-wrap">
+
+    <!-- Formas virsraksts (mainās atkarībā no režīma: jauns / rediģēt) -->
+    <h1 class="title" id="formTitle">Pasākuma rediģēšana</h1>
+
+    <!-- Navigācijas poga kategoriju pārvaldībai -->
+    <div style="text-align: center; margin-bottom: 12px;">
+      <a class="btn" href="category_management.html">Pārvaldīt kategorijas</a>
+    </div>
+
+    <!-- Pasākuma izveides / rediģēšanas forma -->
+    <div class="panel form-wrap">
+      <form id="eventForm">
+
+        <!-- Pasākuma nosaukuma ievade -->
+        <div class="form-row">
+          <label for="title">Nosaukums</label>
+          <input
+            class="w3-input w3-border"
+            id="title"
+            type="text"
+            minlength="3"
+            maxlength="100"
+            required
+          />
+        </div>
+
+        <!-- Pasākuma cenas ievade -->
+        <div class="form-row">
+          <label for="price">Cena</label>
+          <input
+            class="w3-input w3-border"
+            id="price"
+            type="number"
+            min="0"
+            step="0.01"
+            required
+          />
+        </div>
+
+        <!-- Pasākuma datuma un laika ievade -->
+        <div class="form-row">
+          <label for="dateTime">Datums un laiks</label>
+          <input
+            class="w3-input w3-border"
+            id="dateTime"
+            type="datetime-local"
+            required
+          />
+        </div>
+
+        <!-- Pasākuma apraksta ievade -->
+        <div class="form-row">
+          <label for="description">Apraksts</label>
+          <textarea
+            class="w3-input w3-border"
+            id="description"
+            rows="4"
+            minlength="10"
+            maxlength="500"
+            required
+          ></textarea>
+        </div>
+
+        <!-- Pasākuma veida izvēle -->
+        <div class="form-row">
+          <label for="eventType">Pasākuma veids</label>
+          <select class="w3-select w3-border" id="eventType" required>
+            <option value="">Izvēlies veidu</option>
+          </select>
+        </div>
+
+        <!-- Jauna pasākuma veida pievienošana vai rediģēšana -->
+        <div class="form-row">
+          <label for="newTypeName">Jauns pasākuma veids</label>
+          <input
+            class="w3-input w3-border"
+            id="newTypeName"
+            type="text"
+            minlength="3"
+            maxlength="50"
+          />
+          <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+            <button class="btn" type="button" id="addTypeBtn">
+              Pievienot veidu
+            </button>
+            <button class="btn" type="button" id="editTypeBtn">
+              Rediģēt izvēlēto veidu
+            </button>
+          </div>
+        </div>
+
+        <!-- Norises vietas izvēle -->
+        <div class="form-row">
+          <label for="location">Norises vieta</label>
+          <select class="w3-select w3-border" id="location" required>
+            <option value="">Izvēlies vietu</option>
+          </select>
+        </div>
+
+        <!-- Jaunas norises vietas nosaukuma ievade -->
+        <div class="form-row">
+          <label for="newLocationName">Jauna norises vieta</label>
+          <input
+            class="w3-input w3-border"
+            id="newLocationName"
+            type="text"
+            minlength="3"
+            maxlength="100"
+            placeholder="Nosaukums"
+          />
+        </div>
+
+        <!-- Jaunas norises vietas adreses ievade -->
+        <div class="form-row">
+          <label for="newLocationAddress">Norises vietas adrese</label>
+          <input
+            class="w3-input w3-border"
+            id="newLocationAddress"
+            type="text"
+            minlength="5"
+            maxlength="150"
+            placeholder="Adrese"
+          />
+          <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap;">
+            <button class="btn" type="button" id="addLocationBtn">
+              Pievienot vietu
+            </button>
+          </div>
+        </div>
+
+        <!-- Attēlu izvēle augšupielādei -->
+        <div class="form-row">
+          <label for="images">Attēlu augšupielāde</label>
+          <input
+            class="w3-input w3-border"
+            id="images"
+            type="file"
+            multiple
+          />
+          <!-- Paskaidrojums par attēlu uzglabāšanu -->
+          <small class="w3-text-grey">
+            Šajā darbā attēli netiek saglabāti DB, bet tiek parādīti sarakstā.
+          </small>
+          <!-- Izvēlēto attēlu saraksts -->
+          <div
+            id="imagesList"
+            style="margin-top: 8px; font-size: 14px; color: #6b6b6b;"
+          ></div>
+        </div>
+
+        <!-- Kļūdu vai statusa paziņojumi -->
+        <p class="notice" id="statusMessage"></p>
+
+        <!-- Formas darbību pogas -->
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">
+            Saglabāt
+          </button>
+          <button class="btn" type="button" id="cancelBtn">
+            Atcelt
+          </button>
+          <button class="btn" type="button" id="deleteBtn">
+            Dzēst
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript fails pasākuma izveides, rediģēšanas un dzēšanas loģikai -->
+  <script src="js/event_edit.js"></script>
+</body>
+</html>
