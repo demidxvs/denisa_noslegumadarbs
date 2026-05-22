@@ -1,8 +1,8 @@
 /*
   Faila metadati
   Autors: Denis Baglajs
-  Versija: 1.0.0
-  Pēdējais atjauninājums: 2026-05-22
+  Versija: 1.0.2
+  Pēdējais atjauninājums: 2026-03-05
   Mērķis: Izveidot PostgreSQL tabulas pasākumu pārvaldības sistēmai.
 
   Faila apraksts:

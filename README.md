@@ -3,8 +3,8 @@
 ## Projekta metadati
 
 Autors: Denis Baglajs  
-Versija: 1.0.0  
-Pēdējais atjauninājums: 2026-05-22  
+Versija: 1.4.0  
+Pēdējais atjauninājums: 2026-05-15  
 Projekta mērķis: izveidot tīmekļa lietotni pasākumu izveidei, apskatei, rediģēšanai un kategoriju pārvaldībai.
 
 ## Projekta apraksts

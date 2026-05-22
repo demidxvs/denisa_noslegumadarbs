@@ -1,8 +1,8 @@
 /*
   Faila metadati
   Autors: Denis Baglajs
-  Versija: 1.0.0
-  Pēdējais atjauninājums: 2026-05-22
+  Versija: 1.3.1
+  Pēdējais atjauninājums: 2026-05-10
   Mērķis: Nodrošināt pasākuma izveidi, rediģēšanu, dzēšanu un attēlu pievienošanu.
 
   Faila apraksts:

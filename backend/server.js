@@ -1,8 +1,8 @@
 /*
   Faila metadati
   Autors: Denis Baglajs
-  Versija: 1.0.0
-  Pēdējais atjauninājums: 2026-05-22
+  Versija: 1.4.0
+  Pēdējais atjauninājums: 2026-05-15
   Mērķis: Inicializēt Express serveri un piesaistīt REST API maršrutus.
 
   Faila apraksts:

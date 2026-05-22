@@ -1,8 +1,8 @@
 /*
   Faila metadati
   Autors: Denis Baglajs
-  Versija: 1.0.0
-  Pēdējais atjauninājums: 2026-05-22
+  Versija: 1.1.3
+  Pēdējais atjauninājums: 2026-04-05
   Mērķis: Nodrošināt pasākumu veidu REST API maršrutus.
 
   Faila apraksts:

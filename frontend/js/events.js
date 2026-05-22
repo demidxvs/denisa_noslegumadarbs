@@ -1,8 +1,8 @@
 /*
   Faila metadati
   Autors: Denis Baglajs
-  Versija: 1.0.0
-  Pēdējais atjauninājums: 2026-05-22
+  Versija: 1.2.2
+  Pēdējais atjauninājums: 2026-04-20
   Mērķis: Ielādēt, filtrēt un attēlot pasākumu sarakstu galvenajā lapā.
 */
 

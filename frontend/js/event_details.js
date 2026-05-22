@@ -1,8 +1,8 @@
 /*
   Faila metadati
   Autors: Denis Baglajs
-  Versija: 1.0.0
-  Pēdējais atjauninājums: 2026-05-22
+  Versija: 1.2.3
+  Pēdējais atjauninājums: 2026-04-27
   Mērķis: Ielādēt viena pasākuma datus no REST API un attēlot detaļu lapā.
 
   Faila apraksts:

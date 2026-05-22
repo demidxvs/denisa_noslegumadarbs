@@ -1,8 +1,8 @@
 /*
   Faila metadati
   Autors: Denis Baglajs
-  Versija: 1.0.0
-  Pēdējais atjauninājums: 2026-05-22
+  Versija: 1.0.1
+  Pēdējais atjauninājums: 2026-03-12
   Mērķis: Izveidot PostgreSQL datubāzes pieslēgumu backend vajadzībām.
 
   Faila apraksts:

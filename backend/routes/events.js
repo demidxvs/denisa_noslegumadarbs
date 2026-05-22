@@ -1,8 +1,8 @@
 /*
   Faila metadati
   Autors: Denis Baglajs
-  Versija: 1.0.0
-  Pēdējais atjauninājums: 2026-05-22
+  Versija: 1.3.2
+  Pēdējais atjauninājums: 2026-05-12
   Mērķis: Nodrošināt pasākumu REST API maršrutus un attēlu augšupielādi.
 
   Faila apraksts:

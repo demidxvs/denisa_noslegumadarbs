@@ -1,8 +1,8 @@
 /*
   Faila metadati
   Autors: Denis Baglajs
-  Versija: 1.0.0
-  Pēdējais atjauninājums: 2026-05-22
+  Versija: 1.1.1
+  Pēdējais atjauninājums: 2026-03-30
   Mērķis: Ielādēt, pievienot un rediģēt pasākumu kategorijas.
 
   Faila apraksts:
