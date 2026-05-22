@@ -1,6 +1,14 @@
-// Faila apraksts:
-// Šis fails nodrošina pasākuma izveidi, rediģēšanu un dzēšanu,
-// kā arī saziņu ar backend REST API (POST, PUT, DELETE).
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Nodrošināt pasākuma izveidi, rediģēšanu, dzēšanu un attēlu pievienošanu.
+
+  Faila apraksts:
+  Šis fails nodrošina pasākuma izveidi, rediģēšanu un dzēšanu,
+  kā arī saziņu ar backend REST API (POST, PUT, DELETE).
+*/
 
 // Backend API bāzes adrese
 const API_BASE = "http://localhost:3004";

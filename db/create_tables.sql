@@ -1,7 +1,15 @@
--- Faila apraksts:
--- Šis SQL fails izveido visas datubāzes tabulas,
--- kas nepieciešamas pasākumu pārvaldības sistēmai.
--- Tabulas tiek izmantotas REST API līmenī datu glabāšanai un izgūšanai.
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Izveidot PostgreSQL tabulas pasākumu pārvaldības sistēmai.
+
+  Faila apraksts:
+  Šis SQL fails izveido visas datubāzes tabulas,
+  kas nepieciešamas pasākumu pārvaldības sistēmai.
+  Tabulas tiek izmantotas REST API līmenī datu glabāšanai un izgūšanai.
+*/
 
 --------------------------------------------------
 -- Tabula: pasākumu veidi

@@ -1,7 +1,15 @@
-// Faila apraksts:
-// REST API maršruti pasākumu (events) iegūšanai un izveidei.
-// Šis fails apstrādā pasākumu sarakstu, viena pasākuma ielādi un jauna pasākuma pievienošanu,
-// kā arī attēlu piesaisti un rezerves attēlu ģenerēšanu.
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Nodrošināt pasākumu REST API maršrutus un attēlu augšupielādi.
+
+  Faila apraksts:
+  REST API maršruti pasākumu (events) iegūšanai un izveidei.
+  Šis fails apstrādā pasākumu sarakstu, viena pasākuma ielādi un jauna pasākuma pievienošanu,
+  kā arī attēlu piesaisti un rezerves attēlu ģenerēšanu.
+*/
 
 const express = require("express"); // Express ietvars HTTP maršrutiem
 const path = require("path"); // Darbam ar failu ceļiem

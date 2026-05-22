@@ -1,7 +1,15 @@
-// Faila apraksts:
-// Šis fails nodrošina pasākumu kategoriju (pasākumu veidu)
-// pievienošanu, attēlošanu un rediģēšanu,
-// izmantojot REST API un JavaScript bez ietvariem.
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Ielādēt, pievienot un rediģēt pasākumu kategorijas.
+
+  Faila apraksts:
+  Šis fails nodrošina pasākumu kategoriju (pasākumu veidu)
+  pievienošanu, attēlošanu un rediģēšanu,
+  izmantojot REST API un JavaScript bez ietvariem.
+*/
 
 // Backend API bāzes adrese
 const API_BASE = "http://localhost:3004";

@@ -1,6 +1,14 @@
-// Faila apraksts:
-// REST API maršruti pasākumu veidu (event_types) iegūšanai, pievienošanai un rediģēšanai.
-// Šis fails nodrošina CRUD funkcionalitāti pasākumu veidiem.
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Nodrošināt pasākumu veidu REST API maršrutus.
+
+  Faila apraksts:
+  REST API maršruti pasākumu veidu (event_types) iegūšanai, pievienošanai un rediģēšanai.
+  Šis fails nodrošina CRUD funkcionalitāti pasākumu veidiem.
+*/
 
 const express = require("express"); // Express ietvars HTTP maršrutu veidošanai
 const pool = require("../db"); // PostgreSQL savienojuma baseins darbam ar datubāzi

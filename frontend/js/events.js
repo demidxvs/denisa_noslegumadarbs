@@ -1,4 +1,10 @@
-// Faila apraksts: pasākumu saraksta iegūšana, filtrēšana un attēlošana galvenajā lapā.
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Ielādēt, filtrēt un attēlot pasākumu sarakstu galvenajā lapā.
+*/
 
 const API_BASE = "http://localhost:3004";
 

@@ -1,6 +1,14 @@
-/* Faila apraksts:
-   Galvenie stili pasākumu pārvaldības sistēmas lapām.
-   Nodrošina vienotu dizainu visiem HTML logiem. */
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Definēt pasākumu pārvaldības sistēmas kopējo vizuālo noformējumu.
+
+  Faila apraksts:
+  Galvenie stili pasākumu pārvaldības sistēmas lapām.
+  Nodrošina vienotu dizainu visiem HTML logiem.
+*/
 
 /* Krāsu mainīgie visai sistēmai */
 :root {

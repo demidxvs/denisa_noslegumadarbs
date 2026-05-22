@@ -1,6 +1,14 @@
-// Faila apraksts:
-// Šis fails ir atbildīgs par PostgreSQL datubāzes pieslēguma izveidi.
-// Izveidotais savienojums (pool) tiek eksportēts un izmantots visos backend maršrutos.
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Izveidot PostgreSQL datubāzes pieslēgumu backend vajadzībām.
+
+  Faila apraksts:
+  Šis fails ir atbildīgs par PostgreSQL datubāzes pieslēguma izveidi.
+  Izveidotais savienojums (pool) tiek eksportēts un izmantots visos backend maršrutos.
+*/
 
 require("dotenv").config(); 
 // Ielādē vides mainīgos no .env faila (DATABASE_URL, PGHOST, PGUSER u.c.)

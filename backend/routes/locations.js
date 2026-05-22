@@ -1,4 +1,13 @@
-// Faila apraksts: norises vietu (locations) REST API maršruti.
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Nodrošināt norises vietu REST API maršrutus.
+
+  Faila apraksts:
+  Norises vietu (locations) REST API maršruti.
+*/
 
 const express = require("express");
 const pool = require("../db");

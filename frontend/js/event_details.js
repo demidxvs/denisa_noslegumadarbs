@@ -1,6 +1,14 @@
-// Faila apraksts:
-// Šis fails nodrošina viena konkrēta pasākuma detalizētas informācijas
-// ielādi no REST API un attēlošanu event_details.html lapā.
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Ielādēt viena pasākuma datus no REST API un attēlot detaļu lapā.
+
+  Faila apraksts:
+  Šis fails nodrošina viena konkrēta pasākuma detalizētas informācijas
+  ielādi no REST API un attēlošanu event_details.html lapā.
+*/
 
 // Backend API bāzes adrese
 const API_BASE = "http://localhost:3004";

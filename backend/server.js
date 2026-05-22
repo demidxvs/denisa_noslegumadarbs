@@ -1,7 +1,15 @@
-// Faila apraksts:
-// Šis fails inicializē Express serveri,
-// pieslēdz nepieciešamās vidusprogrammas (middleware)
-// un piesaista REST API maršrutus pasākumu sistēmai.
+/*
+  Faila metadati
+  Autors: Denis Baglajs
+  Versija: 1.0.0
+  Pēdējais atjauninājums: 2026-05-22
+  Mērķis: Inicializēt Express serveri un piesaistīt REST API maršrutus.
+
+  Faila apraksts:
+  Šis fails inicializē Express serveri,
+  pieslēdz nepieciešamās vidusprogrammas (middleware)
+  un piesaista REST API maršrutus pasākumu sistēmai.
+*/
 
 require("dotenv").config();
 // Ielādē vides mainīgos no .env faila (piem., PORT, DATABASE_URL)
